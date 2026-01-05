@@ -1,9 +1,7 @@
 # Shock-Turbulence Interaction (STI): Theoretical &  Numerical Study
 
 ## Project Overview
-This repository presents a theoretical & numerical study **Shock-Turbulence Interaction(STI)**, focusing on how a shock wave modifies statistical & structural properties of turbulence. The project systematically 
-analyzes four foundational STI models- Ribner, Jacquin, Lele and Zank(MHD extension)-to understand the physical mechanisms governing turbulence amplification, distortion, and anisotropy induced by shock passage.
-The work emphasizes model-level understanding rather than full-scale CFD, bridging analytical theroy with targeted numerical evaluationsof model predictions.
+This repository represents a theoretical and numerical study of shock-turbulence interaction(STI), focusing on how shock waves modify the statistical and structural properties of turbulent flows. The project systematically examines four foundational STI models- Ribner, Jacquin, Lele, and Zank(MHD extension)- to elucidate the physical mechanisms governing turbulence amplification, spectral distortion and anisotropy induced by shock passage. Emphasis is placed on model-level understanding rather than full-scale computational fluid dynamics(CFD), with the aim of bridging analytical theory and targeted numerical evaluation of model predictions.
 
 ## Motivation
 Shock-Turbulence Interaction plays a central role in:
@@ -52,7 +50,7 @@ Shock-Turbulence Interaction plays a central role in:
   - Modifications of turbulence spectra across MHD shocks
  
  ## Numerical Implementation
- Rather than full Navier-stokes simulation, this project focuses on numerical evaluation of theretical predictions, including:
+ Rather than full Navier-stokes or MHD simulations, this project focuses on numerical evaluation of analytical predictions derived from selected STI models, including:
  - Computation of turbulence amplification factor
  - Analysis of length-scale distortionacross shock
  - Parametric dependence on:
